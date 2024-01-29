@@ -1,0 +1,128 @@
+Sample	Bay	TubeID	Maturity_fieldob	Sex	Location	PCL	FL	TL 	Girth 	Eye2eye 	Bulge_slope	Mouth_width	Maturity
+BB1	Biscayne Area	FS0547	subadult	F	Aisle 9	55	60	75	20	12.369	0.1093	5.967	immature
+BB2	Biscayne Area	FS0556	mature	F	Bear Cut	60	65	80	23	12.998	0.0967	6.061	mature
+BB3	Biscayne Area	FS0557	mature	F	Bear Cut	62	68	83	22	12.662	0.1117	5.849	mature
+BB4	Biscayne Area	FS0559	mature	F	Bear Cut	59	65	80	22	12.811	0.1	6.056	mature
+BB5	Biscayne Area	FS0575	mature	F	Aisle 9	67	73	87	26	12.214	0.1007	5.051	mature
+BB6	Biscayne Area	FS0602	mature	M	Aisle 9	50	54	67	15	11.121	0.1241	4.296	mature
+BB7	Biscayne Area	FS0603	mature	F	Aisle 9	61	66	91	18				mature
+BB8	Biscayne Area	FS0604	mature	F	Aisle 9	65	72	87	21	13.639	0.109	6.277	mature
+BB9	Biscayne Area	FS0605	immature	F	Aisle 9	47	53	65	16	10.451	0.1341	4.914	immature
+BB10	Biscayne Area	FS0606	immature	M	Aisle 9	52	59	69	17				immature
+BB11	Biscayne Area	FS0607	mature	M	Aisle 9	54	59	72	17				mature
+BB12	Biscayne Area	FS0608	mature	M	Aisle 9	54	59	72	16	11.534	0.1261	4.413	mature
+BB13	Biscayne Area	FS0609	mature	M	Aisle 9	55	61	75	17				mature
+BB14	Biscayne Area	FS0610	mature	M	Aisle 9	46	52	63	16				mature
+BB15	Biscayne Area	FS0611	mature	M	Aisle 9	55	61	74	16	11.497	0.1417	5.124	mature
+BB16	Biscayne Area	DOA		F	Aisle 9	50	55	69	16	11.72	0.1014	4.867	immature
+BB17	Biscayne Area	DOA	immature	M	Aisle 9	47	51	64	14	10.299	0.1343	4.567	immature
+BB18	Biscayne Area	FS0614	mature	F	Lemon Drop	63	70	86	23	14.152	0.1002	7.02	mature
+BB19	Biscayne Area	FS0616	mature	F	Aisle 9	68	77	92	26	15.041	0.0867	8.209	mature
+BB20	Biscayne Area	FS0625	mature	M	Aisle 9	56	60	75	19	12.363	0.1198	5.332	mature
+BB21	Biscayne Area	FS0627	subadult	F	Bear Cut	50	56	69	20	11.386	0.1266	5.76	immature
+BB22	Biscayne Area	FS0628	immature	F	Bear Cut	55	60	73	19	11.405	0.1247	5.38	immature
+BB23	Biscayne Area	FS0629	mature	M	Bear Cut	53	58	72	16	11.374	0.1285	5.445	mature
+BB24	Biscayne Area	FS0631	mature	M	Aisle 9	51	56	69	17	11.24	0.1303	5.051	mature
+BB25	Biscayne Area	FS0632	mature	F	Aisle 9	55	61	74	21	12.403	0.1077	5.706	mature
+BB26	Biscayne Area	FS0633	mature	F	Aisle 9	56	61	76	20	12.287	0.1314	5.403	mature
+BB27	Biscayne Area	FS0637	mature	F	Aisle 9	64.5	70.5	86	22	13.096	0.1026	6.385	mature
+BB28	Biscayne Area	FS0638	mature	M	Aisle 9	53	60	72	17	10.939	0.1517	4.774	mature
+BB29	Biscayne Area	FS0639	mature	F	Aisle 9	58	64	78	20	12.422	0.1085	6.387	mature
+BB30	Biscayne Area	FS0642	mature	M	Aisle 9	51	57	68	17	11.439	0.1263	5.506	mature
+BB31	Biscayne Area	FS0643	mature	F	Aisle 9	53	59	73	19	11.234	0.1056	5.088	mature
+BB32	Biscayne Area	FS0646	immature	M	Aisle 9	52	58	71	16.5				immature
+BB33	Biscayne Area	FS0648	immature	M	Aisle 9	46	49	61	13				immature
+BB34	Biscayne Area	FS0649	subadult	M	Aisle 9	55	60	74	18	11.949	0.1183	4.814	immature
+BB35	Biscayne Area	FS0650	mature	M	Aisle 9	52	57	70	16				mature
+BB36	Biscayne Area	FS0651	mature	F	Aisle 9	73	80	85	26	14.093	0.095	6.132	mature
+BB37	Biscayne Area	FS0652	immature	M	Aisle 9	49	53	67	16				immature
+BB38	Biscayne Area	FS0653	immature	F	Aisle 9	58	63	77	17				immature
+BB39	Biscayne Area	FS0654	mature	F	Aisle 9	67	73	89	23				mature
+BB40	Biscayne Area	FS0655		M	Aisle 9	49	54	67	15				mature
+BB41	Biscayne Area	FS0656		M	Aisle 9	51	55	67	17	11.116	0.1276	4.384	mature
+BB42	Biscayne Area	FS0657		F	Aisle 9	52	58	69	18				immature
+BB43	Biscayne Area	FS0663	mature	F	Bear Cut	65	72	86	24	12.809	0.0974	6.538	mature
+BB44	Biscayne Area	FS0664	mature	F	Bear Cut	63	68	84	20				mature
+BB45	Biscayne Area	FS0665	mature	F	Bear Cut	66	72	88	24	12.776	0.1008	6.55	mature
+BB46	Biscayne Area	DOA	subadult	M	Aisle 9	49	53	67	16	10.583	0.1292	4.538	immature
+BB47	Biscayne Area	FS0667	mature	F	Aisle 9	65	70	87	23	12.604	0.1032	6.814	mature
+BB48	Biscayne Area	FS0675	mature	F	Tiger Tail	63	69	85	20				mature
+BB49	Biscayne Area	FS0677	immature	F	Tiger Tail	52	58	72	14	11.182	0.125	5.642	immature
+BB50	Biscayne Area	FS0678	mature	M	Tiger Tail	56	62	76	20	11.667	0.1179	5.295	mature
+BB51	Biscayne Area	FS0682	immature	F	Aisle 9	52	57	71	15	11.114	0.1124	4.613	immature
+BB52	Biscayne Area	FS0683	mature	F	Aisle 9	66	72	88	24	13.034	0.0937	7.148	mature
+BB53	Biscayne Area	FS0685	mature	F	Aisle 9	61	66.5	81	21	12.243	0.1057	5.672	mature
+BB54	Biscayne Area	FS0687	immature	M	Aisle 9	47	52	63	15	10.679	0.1369	4.525	immature
+BB55	Biscayne Area	FS0688	immature	M	Aisle 9	51	56	69	14	10.347	0.1377	4.47	immature
+BB56	Biscayne Area	FS0689	immature	M	Aisle 9	47	51	64	15	10.824	0.1205	5.03	immature
+BB57	Biscayne Area	FS0690	immature	F	Aisle 9	44	49	60	13	10.965	0.1212	4.467	immature
+BB58	Biscayne Area	FS0691	mature	M	Aisle 9	54	58.5	72	15	11.556	0.1163	4.981	mature
+BB59	Biscayne Area	FS0692	immature	M	Aisle 9	51	56	69	17	11.488	0.134	5.167	immature
+BB60	Biscayne Area	FS0693		F	Aisle 9	49	54	67	16	10.788	0.1284	5.095	immature
+BB61	Biscayne Area	FS0694	mature	M	Aisle 9	55	60	76	16	12.41	0.1273	5.03	mature
+BB62	Biscayne Area	FS0697	mature	F	Aisle 9	64	70	84	22				mature
+BB63	Biscayne Area	FS0699	immature	F	Aisle 9	53	59	73	17	11.831	0.1132	4.987	immature
+BB64	Biscayne Area	FS0700	mature	M	Aisle 9	52	57	70	15	11.002	0.1259	5.282	mature
+BB65	Biscayne Area	FS0703	mature	F	Bear Cut	61	66	82	23	12.373	0.1074	4.826	mature
+BB66	Biscayne Area	FS0705	mature	F	Bear Cut	69	75	91	25	13.98	0.096	7.155	mature
+BB67	Biscayne Area	FS0707	mature	F	Bear Cut	68	75	91	25	13.808	0.0946	7.427	mature
+BB68	Biscayne Area	FS0709	immature	F	Aisle 9	51	56	71	16	11.887	0.1052	7.17	immature
+BB69	Biscayne Area	FS0710	mature	F	Aisle 9	52	57	71	16	11.018	0.119	5.334	mature
+BB70	Biscayne Area	FS0711	mature	F	Aisle 9	66	71	87	23	14.06	0.0907	7.012	mature
+BB71	Biscayne Area	FS0712	subadult	M	Aisle 9	53	58	70	17	11.202	0.1253	4.782	immature
+BB72	Biscayne Area	DOA-08072212A	mature	M	Aisle 9	59	65	77	19	12.217	0.1287	5.506	mature
+BB73	Biscayne Area	FS0713	mature	F	Aisle 9	59	64	79	18	12.072	0.1085	5.855	mature
+BB74	Biscayne Area	FS0716	subadult	M	Aisle 9	54	60	73	15	11.557	0.13	4.732	immature
+BB75	Biscayne Area	FS0719	mature	M	Aisle 9	55	60	73	17	11.368	0.1333	4.872	mature
+BB76	Biscayne Area	FS0721	mature	F	Aisle 9	66	71	87	20	13.459	0.0963	6.446	mature
+BB77	Biscayne Area	FS0722	mature	M	Aisle 9	55	60	74	15	11.058	0.1223	4.467	mature
+BB78	Biscayne Area	FS0724	mature	F	Aisle 9	65	74	87	23	13.794	0.0902	6.291	mature
+BB79	Biscayne Area	FS0726	mature	M	Aisle 9	53	58	72	15	11.203	0.1287	5.305	mature
+BB80	Biscayne Area	FS0727	mature	F	Aisle 9	59	64	79	18	12.377	0.1105	5.608	mature
+BB81	Biscayne Area	FS0728	mature	M	Aisle 9	52	57.5	70	20	11.059	0.1249	4.407	mature
+BB82	Biscayne Area	0408223A	mature	M	Aisle 9	53	56	71	15	11.729	0.1196	4.968	mature
+BB83	Biscayne Area	FS0739	mature	M	Soldier Key	54	59	72	19	11.304	0.1244	4.975	mature
+BB84	Biscayne Area	FS0740	mature	F	Soldier Key	61	66	82	19.5	13.023	0.0986	6.297	mature
+BB85	Biscayne Area	FS0741	mature	F	Soldier Key	65	70	85	20	14.666	0.093	7.461	mature
+BB86	Biscayne Area	FS0751	mature	F	Aisle 9	58	62	76	18				mature
+BB87	Biscayne Area	FS0752	mature	M	Aisle 9	54	59	73	18				mature
+BB88	Biscayne Area	FS0772	mature	M	BNP North	65	70.5	86.5	21				mature
+BB89	Biscayne Area	FS0774	mature	F	Cape FL	65	72	86	22				mature
+BB90	Biscayne Area	FS0778	mature	M	Cape FL	51	56	69	15				mature
+TB91	Tampa Area	13-Feb		F	Terra Ceia Bay	45	49	60	15	10.772	0.1044		immature
+TB92	Tampa Area	22-Feb		M	Terra Ceia Bay	55	59	73		12.402	0.1034		mature
+TB93	Tampa Area	Feb-39	mature	M	Terra Ceia Bay	51	57	69	15	13.215	0.104		mature
+TB94	Tampa Area	Feb-40	mature	M	Terra Ceia Bay	51	56	71	15	12.606	0.0986		mature
+TB95	Tampa Area	Feb-41	mature	M	Terra Ceia Bay	49	53	67	15	12.187	0.1172		mature
+TB96	Tampa Area	Feb-42		F	Terra Ceia Bay	55	60	74	16.5	13.337	0.0931		immature
+TB97	Tampa Area	Feb-43		F	Terra Ceia Bay	53	57	71	18	11.959	0.105		immature
+TB98	Tampa Area	Feb-44		F	Terra Ceia Bay	56	61	74	18	14.088	0.0888		immature
+TB99	Tampa Area	1-Apr		F	Terra Ceia Bay	61	66	81	19	14.031	0.0843		mature
+TB100	Tampa Area	1-Jun		F	Terra Ceia Bay	64	70	84	20.5	15.06	0.0855		mature
+TB101	Tampa Area	1-Apr		F	Tampa Bay	60	67	79		13.414	0.0868		immature
+TB102	Tampa Area	2-Apr		F	Tampa Bay	67	73	88		15.172	0.0819		mature
+TB103	Tampa Area	3-Apr		F	Tampa Bay	68	75	90	21	15.448	0.0798		mature
+TB104	Tampa Area	3-Apr		F	Terra Ceia Bay	51	55	65	22	11.796	0.1041	4.825	immature
+TB105	Tampa Area	4-Apr		F	Terra Ceia Bay	53	58	69	23	12.493	0.1028	5.9	immature
+TB106	Tampa Area	5-Apr	YOY	F	Terra Ceia Bay	38	42	52	15	9.426	0.149	3.844	immature
+TB107	Tampa Area	4-Jan	mature	M	Manatee River	52	54	69		10.897	0.1304	4.658	mature
+TB108	Tampa Area	1-Feb		F	Manatee River	63	69	82		13.617	0.0863	6.695	immature
+TB109	Tampa Area	1-Apr		F	Terra Ceia Bay	63	68	82		13.727	0.099	6.875	mature
+TB110	Tampa Area	2-Apr		F	Terra Ceia Bay	73	78	93		15.484	0.0873	6.621	mature
+TB111	Tampa Area	3-Apr		F	Terra Ceia Bay	64	69	84		12.808	0.0939	6.495	mature
+TB112	Tampa Area	4-Apr		F	Terra Ceia Bay	69	75	93		14.825	0.092	6.806	mature
+TB113	Tampa Area	5-Apr		F	Terra Ceia Bay	62	71	87		14.1	0.0899	6.71	mature
+TB114	Tampa Area	1-Feb	YOY	F	Manatee River	44	48	60	17	10.261	0.1115	4.338	immature
+TB115	Tampa Area	2-Feb		F	Manatee River	45	49	61	17	10.804	0.1127	4.12	immature
+TB116	Tampa Area	3-Feb		M	Manatee River	46	50	63	18	10.409	0.1384	4.321	immature
+TB117	Tampa Area	4-Feb		M	Manatee River	42	46	57	18	9.726	0.1364	3.908	mature
+TB118	Tampa Area	6-Feb		F	Manatee River	44	47	59	18	10.786	0.1222	4.299	immature
+TB119	Tampa Area	1-Apr		F	Terra Ceia Bay	68	72	90	29	14.255	0.0869	6.458	mature
+TB120	Tampa Area	1-Apr	mature	M	Tampa Bay	54	58	70	22	11.462	0.1249	4.996	mature
+TB121	Tampa Area	2-Apr	mature	M	Tampa Bay	55	59	73	19	11.968	0.1182	4.247	mature
+TB122	Tampa Area	3-Apr	mature	M	Tampa Bay	52	56	68	18	11.532	0.12	3.961	mature
+TB123	Tampa Area	1-Feb	mature	M	Terra Ceia Bay	49	53	64	19	12.128	0.1181	4.325	mature
+TB124	Tampa Area	1-Mar											
+BB125	Tampa Area	no metadata											
+BB126	Tampa Area	no metadata											
+TB127	Tampa Area	23-May											
