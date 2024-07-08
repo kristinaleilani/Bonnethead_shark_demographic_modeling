@@ -195,8 +195,8 @@ Projections: 36, 124 # change numbers to 2 x 0.9 x number of samples for in each
 Output directory: gadma_result_TampaBiscayne
 
 Engine: moments
-# Pts: 69, 79, 89 # By default, GADMA takes Pts : n, n + 10, n + 20, where n is the largest sample size among the populations of interest.
 
+# If outgroup is False then SFS will be folded.
 Outgroup: True
 
 Theta0: Null
