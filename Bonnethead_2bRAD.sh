@@ -186,10 +186,10 @@ cat d2 | awk '{for (i=1;i<=NF;i++){a[i]+=$i;}} END {for (i=1;i<=NF;i++){printf "
 # cloudy catshark: 7.43e-09, 9 years
 # whale shark: 2.17e-08, 25 years
  
-# pop0 is Tampa Bay, pop1 is Biscayne Bay
+
 echo "#params_file
 Input file: d2.sfs
-Population labels: pop0, pop1
+Population labels: Tampa, Biscayne
 Projections: 36, 124 # change numbers to 2 x 0.9 x number of samples for in each pop 
 
 Output directory: gadma_result_TampaBiscayne
