@@ -121,7 +121,7 @@ echo 'source calc && zcat Bonnet_rel.mafs.gz | cut -f5 |sed 1d >freq && ngsRelat
 
 
 
-#####----------- DEMOGRAPHIC MODELING ---------###############
+#####----------- DEMOGRAPHIC MODELING w/ GADMA ---------###############
 
 # Rerun ANGSD on all well-genotyped sites for SFS production
 
@@ -190,14 +190,14 @@ cat d2 | awk '{for (i=1;i<=NF;i++){a[i]+=$i;}} END {for (i=1;i<=NF;i++){printf "
 echo "#params_file
 Input file: d2.sfs
 Population labels: Tampa, Biscayne
-Projections: 36, 124 # change numbers to 2 x 0.9 x number of samples for in each pop 
+Projections: 36, 36 # Change numbers to 2 x 0.9 x number of samples for in each pop. Here, we project SFS to compare equal # of genomes from each location.
 
 Output directory: gadma_result_TampaBiscayne
 
 Engine: moments
 
 # If outgroup is False then SFS will be folded.
-Outgroup: True
+Outgroup: False
 
 Theta0: Null
 Relative parameters: False
@@ -230,6 +230,71 @@ echo "gadma -p params_file">gd
 
 # To look at the best model:
 python3 best_logLL_model_moments_code.py
+
+
+
+
+
+#####----------- DEMOGRAPHIC MODELING w/ custom model selection procedure (to compare split vs. no split scenarios) ---------###############
+
+# First, bootstrap SFS:
+
+# list "regions"
+cat TBSites | cut -f 1 | uniq >regions
+
+# estimating site frequency likelihoods for each population 
+GENOME_REF="GCA_024679065.1_ASM2467906v1_genomic.fna" 
+echo "angsd -rf regions -sites TBSites -b TB_bams -GL 1 -doSaf 1 -anc $GENOME_REF -out TB
+angsd -rf regions -sites TBSites -b BB_bams -GL 1 -doSaf 1 -anc $GENOME_REF -out BB" >popsfs
+ls6_launcher_creator.py -j popsfs -n popsfs -t 0:45:00 -e kblack@utexas.edu -a IBN21018 -q vm-small
+sbatch popsfs.slurm
+
+export GENOME_REF="GCA_024679065.1_ASM2467906v1_genomic.fna" # reference to which the reads were mapped
+>b100
+for B in `seq 1 100`; do
+echo "sleep $B && realSFS TB.saf.idx BB.saf.idx -ref $GENOME_REF -anc $GENOME_REF -bootstrap 5 -P 1 -resample_chr 1 >p12_$B">>b100;
+done
+ls6_launcher_creator.py -j b100 -n b100 -t 24:00:00 -w 48 -N 4 -e kblack@utexas.edu -a IBN21018 -q normal
+sbatch b100.slurm
+
+# computing SFS dimensions
+export N1=`wc -l TB_bams | cut -f 1 -d " "`
+export N2=`wc -l BB_bams | cut -f 1 -d " "`
+export NG1=`echo "($N1*2)+1" | bc`
+export NG2=`echo "($N2*2)+1" | bc`
+
+# averaging 5-bootstrap batches
+for B in `seq 1 100`; do
+echo "$NG1 $NG2" >p12_${B}.sfs;
+cat p12_${B} | awk '{for (i=1;i<=NF;i++){a[i]+=$i;}} END {for (i=1;i<=NF;i++){printf "%.3f", a[i]/NR; printf "\t"};printf "\n"}' >> p12_${B}.sfs;
+done
+# This takes a long time to run (launch in parallel)
+
+# Should now have 100 bootstrapped SFS 
+# The following is based on instructions here: https://github.com/z0on/AFS-analysis-with-moments
+# First install moments and clone the respository (see link above) 
+
+module load Rstats
+Rscript $WORK/AFS-analysis-with-moments/work/modSel_write.R contrast=p12 args="p1 p2 36 36 0.0195 0.004" folded=TRUE path2models=/work/07090/kblack/ls6/AFS-analysis-with-moments/work/ 
+# list of parameters for SFS models, in the following order: name of pop1, name of pop2, projection for pop1, projection for pop2, mutation rate (per genotyped portion of the genome per generation), generation time in thousands of years
+# Projections = 36 36 (to compare 36 genomes from each bay)
+# 0.0195 = mutation rate * sequence length
+# 0.004 = generation time
+grep -E 'sc2el.py|sc2elsm.py|sc1ns.py|sc2ns.py|sc3ns.py|s2m.py|s2msm.py' p12.modsel.runs > p12.modsel_sub.runs
+# Get a subset of models (choosing only 7) so there are 6 * 7 * 10 model runs (total 420), requiring 1 hour each.
+# run the models (p12.modsel_sub.runs) in parallel
+
+# summarize results
+Rscript $WORK/AFS-analysis-with-moments/work/modSel_summary.R modselResult=p12.modsel args="p1 p2 36 36 0.0195 0.004"
+
+# bootstrap winning model
+# run p12.winboots.runs in parallel
+
+# summarize results
+Rscript $WORK/AFS-analysis-with-moments/work/bestBoot_summary.R bootRes=p12.winboots folded=TRUE path2models=/work/07090/kblack/ls6/AFS-analysis-with-moments/work/
+
+
+
 
 
 
