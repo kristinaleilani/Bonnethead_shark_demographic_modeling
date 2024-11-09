@@ -1,5 +1,5 @@
 # Bonnethead shark demographic modeling
-Scripts and data to accompany the manuscript "Evidence of unidirectional gene flow in bonnethead sharks from the Gulf coast to the Atlantic coast of Florida"
+Scripts and data to accompany the manuscript "Evidence of unidirectional gene flow in bonnethead sharks from the Gulf coast to the Atlantic coast of Florida".
 
 Bonnethead_2bRAD.sh contains instructions to trim and filter reads, genotype samples, run model selection for demographic inference, and calculate Fst and inbreeding coefficients. Data input for these scripts include: d2.sfs (site frequency spectrum for GADMA) and "sfs" (folder): contains 100 bootstrapped sfs for custom model selection procedure. All genetic data can be accessed from the Sequence Read Archive under Bioproject: PRJNA1082259 (Accession nos.: SAMN40202348- SAMN40202454).
 
